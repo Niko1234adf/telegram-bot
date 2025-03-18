@@ -14,7 +14,7 @@ def ping(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("📍 Pong! Бот работает корректно.")
 
 def main():
-    updater = Updater(TELEGRAM_API_TOKEN)
+    updater = Updater("7851181908:AAENbvghKJOJK0vrsseuKLyCUiyuTXrbIAA")
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
