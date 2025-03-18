@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Получаем API-ключ из переменных окружения
-TELEGRAM_API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
+TELEGRAM_API_TOKEN = os.getenv(7851181908:AAENbvghKJOJK0vrsseuKLyCUiyuTXrbIAA)
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("✅ Бот успешно запущен! Напишите /ping для проверки.")
