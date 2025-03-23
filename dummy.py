@@ -1,3 +1,8 @@
-def app(environ, start_response):
-    start_response("200 OK", [("Content-Type", "text/plain")])
-    return [b"Bot is running!"]
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Бот работает!"
+
