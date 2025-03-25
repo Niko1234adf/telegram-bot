@@ -2,7 +2,6 @@ import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-# Получаем токен из переменных окружения
 TELEGRAM_API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
 
 def start(update: Update, context: CallbackContext) -> None:
